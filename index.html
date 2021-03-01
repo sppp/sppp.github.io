@@ -1,108 +1,250 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta http-equiv="Cache-Control" content="no-store">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Thoughts</title>
-<style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="webthemez">
+    <title>Personal page of Seppo Pakonen</title>
+	<!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet"> 
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet"> 
+	
+        <link rel="stylesheet" type="text/css" href="css/slider-style.css" />
+        <link rel="stylesheet" type="text/css" href="css/slider-custom.css" />
+		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="favicon.ico"> 
+</head> 
 
-html {
-  font-size: 16px;
-}
+<body id="home">
+    <header id="header">
+        <nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                </div>
+				
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="scroll active"><a href="#home">Home</a></li>  
+                        <li class="scroll"><a href="#services">Services</a></li>
+                        <li class="scroll"><a href="#about">About</a></li> 
+                        <li class="scroll"><a href="#our-team">Profile</a></li>                  
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+    </header><!--/header-->
 
-body {
-  padding: 3%;
-  font-family: serif;
-  max-width: 60ch;
-  margin: auto;
-  word-wrap: break-word;
-  line-height: 1.50;
-}
+    <section class="demo-2">
+           <div id="slider" class="sl-slider-wrapper">
 
-pre {
-  overflow-x: auto;
-  word-wrap: normal;
-  padding: 0em .25em;
-  background: #eeeeee;
-  margin: .25em 0em;
-  border-radius: 3px;
-}
+				<div class="sl-slider">
+				
+					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+						<div class="sl-slide-inner">
+							<div class="bg-img bg-img-1"></div>
+							<div class="slide-caption">
+							<h2>Core Stuff</h2>
+							<blockquote><p>Programmer, Composer, Nerd 4 Life.</p> </blockquote>
+							</div>
+						</div>
+					</div>
+					
+					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+						<div class="sl-slide-inner">
+							<div class="bg-img bg-img-2"></div>
+							<div class="slide-caption-dark">
+							<h2></h2>
+							<blockquote><p></p></blockquote>
+							</div>
+						</div>
+					</div>
+					
+					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+						<div class="sl-slide-inner">
+							<div class="bg-img bg-img-3"></div>
+							<div class="slide-caption">
+							<h2></h2>
+							<blockquote><p></p> </blockquote>
+							</div>
+						</div>
+					</div>					
+				</div><!-- /sl-slider -->
 
-code {
-  font-family: monospace;
-  font-size: .8em;
-  background: #eeeeee;
-}
+				<nav id="nav-dots" class="nav-dots">
+					<span class="nav-dot-current"></span>
+					<span></span>
+					<span></span> 
+				</nav>
 
-code:not(.block) {
-  padding: 0em .2em;
-  border-radius: 3px;
-}
+			</div><!-- /slider-wrapper -->
 
-div.thought-date {
-  text-align: right;
-  font-size: .8em;
-  font-weight: bold;
-  font-family: sans-serif;
-}
+    </section><!--/#main-slider-->
 
-section.thought {
-  margin: 1em 0em;
-}
+ <section id="services" >
+        <div class="container">
 
-div.thought {
-  border-style: solid;
-  padding: .5em;
-}
+            <div class="section-header">
+                <h2 class="section-title wow fadeInDown">My Services</h2>
+                <p class="wow fadeInDown">I can program U++ projects for your company or make background music for your games. Please <a href="https://sppp.github.io/AudioAssets/">listen my existing compositions</a>.</p>
+            </div>
 
-h1 {
-  font-family: sans-serif;
-}
+            <div class="row">
+                <div class="features">
+                
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-bullseye"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading"><a href="https://www.ultimatepp.org/">U++ Dev</a></h4>
+                                <p>I can do rapid cross-platform application development for your company. If you need a native GUI for your Linux/Windows program, then contact me.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
 
-</style>
-</head>
-<body>
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-paper-plane-o"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading"><a href="https://sppp.github.io/AudioAssets/">Music compositions</a></h4>
+                                <p>I can compose a song for you in any genre. Pop-rock is my strong area, though.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
 
-<h1>Thoughts</h1>
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-bar-chart"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Music production</h4>
+                                <p>I can produce a song for you. E.g. if you like my songs and want to sing on one, then just contact me and we'll arrange that.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
 
-<!-- Your thoughts start here -->
+                </div>
+            </div><!--/.row-->    
+        </div><!--/.container-->
+    </section><!--/#services-->
 
-<section class="thought"><div class="thought-date"><a class="thought-date" id="215434610128" href="#215434610128">
-    01:27  | 2020-07-14</a></div><div class="thought">
-    I have tried to optimize counterfactual regret minimization (CFR) algorithm for over an year. 
-The main focus was to solve Holdem Poker. 
-Now I completely understand all the bucketing of hand probability distributions and changes in the distribution when new board cards are dealt. 
-Recently, I tried to write everything in a complex Holdem CFR algorithm by memory and succeeded. 
-However, it is very hard to write high performance CFR trainer by hand. Some generator is needed and I am looking forward for a proper meta-compiler (like FOG, but modern). 
-Also, I am trying to approximate a series of turns as one "big turn".
-<br><br>
-Anyway, I realized, that the self-play training matches 100% to the religious Golden Rule ("treat others as you would like to be treated yourself"). 
-That seems also match the Code of Hammurabi, the pessimistic version of the Golden Rule ("an eye for an eye, a tooth for a tooth"). 
-In CFR, the average value is being balanced between players iteratively indirectly (value being "sum(hand_probability * hand_value)" over hand combinations). 
-<br><br>
-The matching of the poker solving algorithm to those religious rules is very surprising. 
-<br><br>
-It is actually bad thing, because every aspect of the life shouldn't be a game. 
-Not even majority of aspects of a life. 
-The evolution is also not considered to be survivability of the fittest in almost any sense anymore. 
-There is many complex perspectives to the evolution. 
-<br><br>
-I think that the Golden Rule is mixed with human rights and altruism incorrectly. 
-It works positively only in an environment, where participants know what others know and "known knows" are public. 
-It doesn't work positively with "known unknowns" or "unknown knowns" or "unknown unknowns". 
-<br><br>
-Thus, I conclude, that the Golden Rule is a very evil rule, not good. 
-    </div></section>
+  
+ <section id="about">
+        <div class="container">
+
+            <div class="section-header">
+                <h2 class="section-title wow fadeInDown">Who am I</h2>
+                <p class="wow fadeInDown">
+                I am a 30-something years old man from Oulu, Finland. <br>
+                I was a computer geek already in the floppy-era, before the home internet. <br>
+                I was raised in a Waldorf school (and it's not a cult!). <br>
+                I studied computer science in the University of Oulu. <br>
+                I am also a military police corporal believe or not.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 wow fadeInLeft">
+                  <img class="img-responsive" src="images/about.png" alt="">
+                </div>
+
+                <div class="col-sm-6 wow fadeInRight">
+                    <h3 class="column-title">My Working Studio</h3>
+                    <p>Since 1999, I have maintained a mid-/highend desktop PC with AMD processor and Nvidia graphics card.</p>
+                    <p>I keep 3 operating systems in my PC: FreeBSD, Gentoo Linux and Windows 10. Gentoo is my primary OS, but I use FreeBSD for debugging (mostly valgrinding) and Windows for public binary releases.</p>
+                    <p>I have a standing desktop and a treadmill. I walk as much as I can while programming. I even use a heavy backpack like I was in hiking. Hell, I even do a virtual Appalachian Trail hike now, because I don't have the money and the courage to travel to the real one.</p>
+                    <p>I have high quality studio monitors, high quality microphones and many music instruments, including a electric guitar, electric bass, acoustic guitar and midi keyboard.</a>
+                    <p>I have also a cloud server. Currently, it is in Poland.</p>
+                </div>
+            </div>
+        </div>
+    </section><!--/#about-->
+<section id="hero-action-section" class="hero-action-section">
+		<!-- .Container -->
+		<div class="container ow-section">
+			<h3 class="hero-action-subtitle">I really make good music</h3>
+			<h4 class="hero-action-title">Good start, but then it got quiet.</h4>
+			<p class="hero-action-description">
+			I did get hundreds of thousands of listenings to my songs here in Finland in early 2000.<br>
+			I got tons of positive comments and I'll never forget them.<br>
+			I didn't do it alone, but I did the most critical work to our success.<br>
+			However, I am not really a vocal person and you need a charismatic performer to gain audience.<br>
+			So, everything went quiet after I didn't continue with same singers. They wanted me to be a workhorse for them, not a equal partner.<br>
+			I value strong, opionated social connections more than high numbers of followers. <br>
+			If my work gets you thinking, just write me your thoughts, even if they are dumb. (email, twitter, instagram, etc.)<br>
+			I do read every message.
+			</p>
+			<p><a href="https://sppp.github.io/AudioAssets/" class="get-started">Listen now!!</a></p>
+		</div><!-- /.Container -->
+	</section>
+     <section id="our-team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title wow fadeInDown">
+My profile
+</h2>
+<p class="wow fadeInDown">I am not active in social media, but I appreciate if you follow me or send me a message.<br>
+                        <a href="https://www.facebook.com/seppo.pakonen"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/PakonenSeppo"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/sppp89"><i class="fa fa-instagram"></i></a>
+                </p> 
+            </div>
+			
+
+        </div>
+    </section><!--/#our-team-->
     
-<section class="thought"><div class="thought-date"><a class="thought-date" id="6117747428" href="#6117747428">
-    12:29  | 2020-06-30</a></div><div class="thought">
-    Asensimpa tämmöisen thoughts ohjelman. Kirjoittelen tähän mitä mieleen juolahtaa :) <br>
-    </div></section>
-    
-<hr>
-<p style="text-align:center">
-<a href=https://github.com/marenbeam/thoughts>source</a>
-</p>
+   
+  
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2021 Seppo Pakonen. Template by <a target="_blank" href="http://webthemez.com/" title="Free Bootstrap Themes and HTML Templates">WebThemez.com</a>
+                </div>
+                <div class="col-sm-6">
+                    <ul class="social-icons">
+                        <li><a href="https://www.facebook.com/seppo.pakonen"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/PakonenSeppo"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/sppp89"><i class="fa fa-instagram"></i></a></li> 
+                        <li><a href="https://www.youtube.com/channel/UCAkGYAY1NWH0u3T8DkoTwBA"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="https://github.com/sppp/"><i class="fa fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/mousescroll.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/wow.min.js"></script>
+	<script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
+    <script type="text/javascript" src="js/jquery.slitslider.js"></script>
+	<script type="text/javascript" src="js/slitslider-custom.js"></script>
+    <script src="js/custom-scripts.js"></script>
 </body>
 </html>
