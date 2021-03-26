@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sppp.github.io/audioassets-sitemap.txt
+
